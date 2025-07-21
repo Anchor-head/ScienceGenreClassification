@@ -15,4 +15,4 @@ Two training flows are experimented with to compensate for the scarcity of manua
 SetFit-SciBERT.ipynb is a jupyter notebook developed on Google Colab to train a sentence transformer using SetFit.
 
 ## Current progress
-So far, a SciBERT-based sentence transformer has reached an accuracy of 0.597 in 5 epochs using SetFit, without the use of metadata.
+So far, the best model is a SciBERT-based sentence transformer with an accuracy of 0.597, trained in 5 epochs using SetFit without the use of metadata. The next experiments will involve increasing the number of epochs and concatenating a metadata vector to the model's embedding layer.
